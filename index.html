@@ -12,30 +12,88 @@
     <script type='text/javascript' src='js/tether.min.js'></script>
     <script type='text/javascript' src='js/bootstrap.js'></script>
   </head>
-  <body>
+  <body class='bg-faded'>
     <nav class="navbar navbar-toggleable-md navbar-inverse bg-primary">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <div class='container'>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline hidden-sm-down">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-secondary" type="submit">Search</button>
-        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline hidden-sm-down">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
+    <div class='container p-t-2'>
+      <div class='row'>
+        <div class='col-lg-4 col-md-4 col-xs-12'>
+          <div class='card'>
+            <img class='card-img-top' src='http://i.imgur.com/2Aslvyy.jpg' width='100%' alt='Profile Background'>
+            <div class='card-block text-center'>
+              <img class='img-thumbnail m-b-1' src='http://i.imgur.com/59OyiF1.jpg' style='max-width: 100px; margin-top: -70px' alt='Profile Background'>
+              <p class='card-title m-b-0'><strong>Nikola Tesla</strong></p>
+              <a href=''>
+                <small>@tesla</small>
+              </a>
+            </div>
+            <div class='card-block p-t-0'>
+              <div class='row'>
+                <div class='col-xs-6'>
+                  <small class='text-muter text-uppercase'>Followers</small>
+                  <span class='h4'>123</span>
+                </div>
+                <div class='col-xs-6'>
+                  <small class='text-muter text-uppercase'>Following</small>
+                  <span class='h4'>123</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-4 col-md-8 col-xs-12'>
+          <div class='card'>
+            <div class='card-block'>
+              <span class='h4 card-title'>Title</span>
+              <p>Some quick text for the card component</p>
+            </div>
+          </div>
+          <div class='card'>
+            <div class='card-block'>
+              <span class='h4 card-title'>Title</span>
+              <p>Some quick text for the card component</p>
+            </div>
+          </div>
+          <div class='card'>
+            <div class='card-block'>
+              <span class='h4 card-title'>Title</span>
+              <p>Some quick text for the card component</p>
+            </div>
+          </div>                    
+        </div>
+        <div class='col-lg-4 col-md-12 hidden-xs-down'>
+          <div class='card'>
+            <div class='card-block'>
+              <span class='h4 card-title'>Title</span>
+              <p>Some quick text for the card component</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
